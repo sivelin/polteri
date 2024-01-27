@@ -75,16 +75,24 @@ footer {
 }
 
 a {
-	color: #aaa;
+	color: #888;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #777;
+    transition: color 0.3s;
+	color: #333;
 }
 
 .tag {
 	color: #FFAC46;
 	padding:0px 0px 0px 0px;
-	font-size: 1.5em;
+}
+
+.house {
+	color: green;
+}
+
+.konzert {
+	color: #69A1AC;
 }
