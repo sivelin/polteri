@@ -18,7 +18,6 @@ header {
 
 section {
 	max-width: 800px;
-	padding: 1em 2em 0em 2em;
 	background-color: #fff;
 }
 
@@ -34,6 +33,7 @@ h1 a {
 }
 
 h2 {
+	padding: 0em 1em 0em 1em;
 	color: #333;
 }
 
@@ -107,10 +107,15 @@ a:hover {
 }
 
 .info {
-	
+	padding: 1em 1em 0em 1em;
 	margin-top: 4em;
 }
 
 i {
 	font-size: small;
+}
+
+ul {
+	list-style-type:  "\2192";
+	list-style-position: inside;
 }
