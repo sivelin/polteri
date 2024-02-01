@@ -18,7 +18,7 @@ header {
 
 section {
 	max-width: 800px;
-	padding: 2em;
+	padding: 1em 2em 0em 2em;
 	background-color: #fff;
 }
 
@@ -34,7 +34,6 @@ h1 a {
 }
 
 h2 {
-	margin-top: 3.5em;
 	color: #333;
 }
 
@@ -75,7 +74,7 @@ footer {
 }
 
 a {
-	color: #FFAC46;
+	color: green;
 	text-decoration: none;
 }
 
@@ -95,4 +94,23 @@ a:hover {
 
 .konzert {
 	color: #69A1AC;
+}
+
+.h3 {
+	float: left;
+}
+
+.event-title {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.info {
+	
+	margin-top: 4em;
+}
+
+i {
+	font-size: small;
 }
